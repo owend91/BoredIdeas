@@ -8,18 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		639B100129B67E29006CB8E9 /* BoredIdeasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B100029B67E29006CB8E9 /* BoredIdeasApp.swift */; };
-		639B100329B67E29006CB8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B100229B67E29006CB8E9 /* ContentView.swift */; };
+		639B100329B67E29006CB8E9 /* ChooseActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B100229B67E29006CB8E9 /* ChooseActivityView.swift */; };
 		639B100529B67E2B006CB8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639B100429B67E2B006CB8E9 /* Assets.xcassets */; };
 		639B100929B67E2B006CB8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639B100829B67E2B006CB8E9 /* Preview Assets.xcassets */; };
+		639B101029B67F48006CB8E9 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B100F29B67F48006CB8E9 /* Activity.swift */; };
+		639B101229B67FC9006CB8E9 /* ActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B101129B67FC9006CB8E9 /* ActivityService.swift */; };
+		639B101629B68551006CB8E9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B101529B68551006CB8E9 /* Theme.swift */; };
+		639B101B29B68A2E006CB8E9 /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B101A29B68A2E006CB8E9 /* ActivityCardView.swift */; };
+		639B102029B68B81006CB8E9 /* ChooseActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B101F29B68B81006CB8E9 /* ChooseActivityViewModel.swift */; };
+		639B102429B68D7B006CB8E9 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B102329B68D7B006CB8E9 /* ActivityDetailView.swift */; };
+		639B102729B7A3B8006CB8E9 /* SeenActivitiesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 639B102529B7A3B8006CB8E9 /* SeenActivitiesModel.xcdatamodeld */; };
+		639B102A29B7A437006CB8E9 /* SeenActivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B102929B7A437006CB8E9 /* SeenActivityProvider.swift */; };
+		639B102C29B7A540006CB8E9 /* SeenActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B102B29B7A540006CB8E9 /* SeenActivity.swift */; };
+		639B103029B7B098006CB8E9 /* SeenActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B102F29B7B098006CB8E9 /* SeenActivitiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		639B0FFD29B67E29006CB8E9 /* BoredIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredIdeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639B100029B67E29006CB8E9 /* BoredIdeasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredIdeasApp.swift; sourceTree = "<group>"; };
-		639B100229B67E29006CB8E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		639B100229B67E29006CB8E9 /* ChooseActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseActivityView.swift; sourceTree = "<group>"; };
 		639B100429B67E2B006CB8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639B100629B67E2B006CB8E9 /* BoredIdeas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoredIdeas.entitlements; sourceTree = "<group>"; };
 		639B100829B67E2B006CB8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		639B100F29B67F48006CB8E9 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		639B101129B67FC9006CB8E9 /* ActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityService.swift; sourceTree = "<group>"; };
+		639B101529B68551006CB8E9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		639B101A29B68A2E006CB8E9 /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		639B101F29B68B81006CB8E9 /* ChooseActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseActivityViewModel.swift; sourceTree = "<group>"; };
+		639B102329B68D7B006CB8E9 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		639B102629B7A3B8006CB8E9 /* SeenActivities.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeenActivities.xcdatamodel; sourceTree = "<group>"; };
+		639B102929B7A437006CB8E9 /* SeenActivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenActivityProvider.swift; sourceTree = "<group>"; };
+		639B102B29B7A540006CB8E9 /* SeenActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenActivity.swift; sourceTree = "<group>"; };
+		639B102F29B7B098006CB8E9 /* SeenActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenActivitiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +72,14 @@
 		639B0FFF29B67E29006CB8E9 /* BoredIdeas */ = {
 			isa = PBXGroup;
 			children = (
+				639B101729B689CC006CB8E9 /* Features */,
+				639B101329B68544006CB8E9 /* Base */,
 				639B100029B67E29006CB8E9 /* BoredIdeasApp.swift */,
-				639B100229B67E29006CB8E9 /* ContentView.swift */,
 				639B100429B67E2B006CB8E9 /* Assets.xcassets */,
 				639B100629B67E2B006CB8E9 /* BoredIdeas.entitlements */,
 				639B100729B67E2B006CB8E9 /* Preview Content */,
+				639B100F29B67F48006CB8E9 /* Activity.swift */,
+				639B101129B67FC9006CB8E9 /* ActivityService.swift */,
 			);
 			path = BoredIdeas;
 			sourceTree = "<group>";
@@ -67,6 +90,85 @@
 				639B100829B67E2B006CB8E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		639B101329B68544006CB8E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				639B102829B7A425006CB8E9 /* Model */,
+				639B101429B6854A006CB8E9 /* Resources */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		639B101429B6854A006CB8E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				639B101529B68551006CB8E9 /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		639B101729B689CC006CB8E9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				639B102D29B7B06B006CB8E9 /* ViewActivities */,
+				639B101829B689DA006CB8E9 /* ChooseActivity */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		639B101829B689DA006CB8E9 /* ChooseActivity */ = {
+			isa = PBXGroup;
+			children = (
+				639B101E29B68ACB006CB8E9 /* ViewModels */,
+				639B101929B689F5006CB8E9 /* Views */,
+			);
+			path = ChooseActivity;
+			sourceTree = "<group>";
+		};
+		639B101929B689F5006CB8E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				639B100229B67E29006CB8E9 /* ChooseActivityView.swift */,
+				639B101A29B68A2E006CB8E9 /* ActivityCardView.swift */,
+				639B102329B68D7B006CB8E9 /* ActivityDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		639B101E29B68ACB006CB8E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				639B101F29B68B81006CB8E9 /* ChooseActivityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		639B102829B7A425006CB8E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				639B102529B7A3B8006CB8E9 /* SeenActivitiesModel.xcdatamodeld */,
+				639B102929B7A437006CB8E9 /* SeenActivityProvider.swift */,
+				639B102B29B7A540006CB8E9 /* SeenActivity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		639B102D29B7B06B006CB8E9 /* ViewActivities */ = {
+			isa = PBXGroup;
+			children = (
+				639B102E29B7B079006CB8E9 /* Views */,
+			);
+			path = ViewActivities;
+			sourceTree = "<group>";
+		};
+		639B102E29B7B079006CB8E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				639B102F29B7B098006CB8E9 /* SeenActivitiesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				639B100329B67E29006CB8E9 /* ContentView.swift in Sources */,
+				639B102429B68D7B006CB8E9 /* ActivityDetailView.swift in Sources */,
+				639B102029B68B81006CB8E9 /* ChooseActivityViewModel.swift in Sources */,
+				639B103029B7B098006CB8E9 /* SeenActivitiesView.swift in Sources */,
+				639B101629B68551006CB8E9 /* Theme.swift in Sources */,
+				639B101029B67F48006CB8E9 /* Activity.swift in Sources */,
+				639B100329B67E29006CB8E9 /* ChooseActivityView.swift in Sources */,
+				639B102C29B7A540006CB8E9 /* SeenActivity.swift in Sources */,
+				639B101B29B68A2E006CB8E9 /* ActivityCardView.swift in Sources */,
+				639B102729B7A3B8006CB8E9 /* SeenActivitiesModel.xcdatamodeld in Sources */,
+				639B101229B67FC9006CB8E9 /* ActivityService.swift in Sources */,
+				639B102A29B7A437006CB8E9 /* SeenActivityProvider.swift in Sources */,
 				639B100129B67E29006CB8E9 /* BoredIdeasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +389,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -287,10 +399,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.BoredIdeas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,8 +429,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -325,10 +439,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.BoredIdeas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -354,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		639B102529B7A3B8006CB8E9 /* SeenActivitiesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				639B102629B7A3B8006CB8E9 /* SeenActivities.xcdatamodel */,
+			);
+			currentVersion = 639B102629B7A3B8006CB8E9 /* SeenActivities.xcdatamodel */;
+			path = SeenActivitiesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 639B0FF529B67E29006CB8E9 /* Project object */;
 }
